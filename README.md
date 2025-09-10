@@ -1,6 +1,6 @@
 # Provably Fair RNG
 
-A provably fair random number generator implementation in Go using SHA-512 hashing for transparent and verifiable randomness in gaming applications.
+A provably fair random number generator implementation in Go using SHA-512.
 
 ## Usage
 
