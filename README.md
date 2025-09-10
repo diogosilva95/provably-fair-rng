@@ -1,10 +1,6 @@
 # Provably Fair RNG
 
-A simple provably fair random number generator implementation in Go.
-
-## What it does
-
-Generates verifiable random numbers using client seed, server seed, and nonce. Uses SHA-512 hashing to ensure fairness and transparency.
+A provably fair random number generator implementation in Go using SHA-512 hashing for transparent and verifiable randomness in gaming applications.
 
 ## Usage
 
@@ -12,7 +8,7 @@ Generates verifiable random numbers using client seed, server seed, and nonce. U
 go run main.go
 ```
 
-## API
+## Api
 
 - `games.RNG(clientSeed, serverSeed, nonce, cursor)` - Returns random number 0-9999
 - `games.DiceRoll(clientSeed, serverSeed, nonce)` - Returns dice roll 0.00-99.99
